@@ -1,0 +1,27 @@
+{
+  "name": "component-create",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "licence": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.1",
+    "@varlet/ui": "^1.27.19",
+    "types": "^0.1.1",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3",
+    "whistle": "^2.9.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
