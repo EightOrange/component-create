@@ -11,7 +11,7 @@
 
       <var-button @click="changeHeightInput(0)" color="black">抽屉收回</var-button>
     </var-space>
-    <bottom-drag-move-v2 ref="bottomDragMoveV2">
+    <bottom-drag-move ref="bottomDragMoveV2">
 
       　　在这种困难的抉择下，本人思来想去，寝食难安。 罗曼·罗兰在不经意间这样说过，只有把抱怨环境的心情，化为上进的力量，才是成功的保证。这句话语虽然很短，但令我浮想联翩。
       所谓一个工具箱，关键是一个工具箱需要如何写。 要想清楚，一个工具箱，到底是一种怎么样的存在。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。
@@ -31,14 +31,14 @@
       本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 一般来讲，我们都必须务必慎重的考虑考虑。 一个工具箱，发生了会如何，不发生又会如何。
       一般来讲，我们都必须务必慎重的考虑考虑。 生活中，若一个工具箱出现了，我们就不得不考虑它出现了的事实。
       一个工具箱，发生了会如何，不发生又会如何。
-    </bottom-drag-move-v2>
+    </bottom-drag-move>
   </div>
 </template>
 
 <script>
 
 // import BottomDragMove from "../components/bottomDragMove/bottomDragMove.vue";
-import BottomDragMoveV2 from "../components/bottomDragMove/bottomDragMoveV2.vue";
+import BottomDragMove from "../components/bottomDragMove/bottomDragMoveV2.vue";
 
 
 
@@ -46,7 +46,7 @@ import BottomDragMoveV2 from "../components/bottomDragMove/bottomDragMoveV2.vue"
 
 export default {
   name: "home",
-  components: {BottomDragMoveV2},
+  components: {BottomDragMove},
   data() {
     return {};
   },
